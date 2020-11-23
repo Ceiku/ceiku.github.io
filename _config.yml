@@ -18,6 +18,7 @@ email:
 description: >- # this means to ignore newlines until "baseurl:"
   Both a top level directory for some of my projects and contributions.
   Along with some posts on computing habits and how to automate some habits.
+  Some Extra lorum
 twitter_username: username
 github_username: ceiku
 minimal_mistakes_skin: air
