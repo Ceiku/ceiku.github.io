@@ -16,10 +16,11 @@
 title: A Developers Notebook
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Both a top level directory for some of my projects and contributions along with some posts on computing habits and how to automate some habits.
+  Both a top level directory for some of my projects and contributions.
+  Along with some posts on computing habits and how to automate some habits.
 twitter_username: username
 github_username: ceiku
-minimal_mistakes_skin: air
+minimal_mistakes_skin: default
 search: true
 
 # Build settings
@@ -56,7 +57,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Daniel Steen-Brungot"
+  name   : "Daniel Steen"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "A curious developer that tinkers with anything from machine learning to the internet of things."
   links:
@@ -68,7 +69,7 @@ author:
     #  url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-    #  url: "https://github.com/"
+      url: "https://github.com/"
     #- label: "Instagram"
     #  icon: "fab fa-fw fa-instagram"
     #  url: "https://instagram.com/"
