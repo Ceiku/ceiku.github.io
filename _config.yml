@@ -21,7 +21,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Some Extra lorum
 twitter_username: username
 github_username: ceiku
-minimal_mistakes_skin: air
+minimal_mistakes_skin: default
 search: true
 
 # Build settings
