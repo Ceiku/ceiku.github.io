@@ -9,9 +9,7 @@ tags:
   - Automation
   - AutoLife
 ---
-
-The idea that we should have any means of computing available in any format on any device might seem unrealistic, it is however the main idea in Ubiquitous computing paradigm, ubicomp for short, that was first termed in this paper by ().
-It might have been hard to imagine then just how pervasive computing had become, from smart phones and gadgets to the internet of things (IoT), so lets see how far our bright minds have gotten us this to this purpose, and what can we take from it. 
+It might have been hard to imagine just how pervasive computing would become today, with our myrad of personal smart gadgets and cloud services, it might be surprising that over 30 years before the smart phone, in 1988, Mark Weiser proposed a computer paradigm called Ubiquitous computing (ubicomp), in his era of calm technology, the computers themself fade unseen into the background. It is a combined result of how we design human-computer interfaces,from the data we generate, and the context it provide, our computers should make the data we would want or require available comfortably, as we move between home, office, hobbies and vacations. 
 
 <!--more-->
 
