@@ -9,7 +9,7 @@ tags:
   - Automation
   - AutoLife
 ---
-It might have been hard to imagine just how pervasive computing would become today, with our myrad of personal smart gadgets and cloud services, it might be surprising that over 30 years before the smart phone, in 1988, Mark Weiser proposed a computer paradigm called Ubiquitous computing (ubicomp), in his era of calm technology, the computers themself fade unseen into the background. It is a combined result of how we design human-computer interfaces (HCI),from the data we generate, and the context it provide, our computations should make the data we would want or require available comfortably, as we move between home, office, hobbies and vacations. 
+It might have been hard to imagine in 1988 just how pervasive computing would become today, with our myrad of personal smart gadgets and cloud services, but surprisingly, over 30 years before the smart phone Mark Weiser lay forth a computer paradigm called Ubiquitous computing (ubicomp), in this predicted era of calm technology, the computers themself fade unseen into the background. It is a paradigm born from how we design human-computer interfaces (HCI), the data we generate, and the context it provides our computations, it should make the data we would want or require available comfortably, as we move between home, office, hobbies and vacations. 
 
 <!--more-->
 
