@@ -4,7 +4,7 @@ last_modified_at: 2016-03-09T16:20:02-05:00
 excerpt_separator: "<!--more-->"
 header:
   image: /assets/images/computation-at-work.jpg
-  caption: "Photo credit: [**Unsplash**]((https://unsplash.com/photos/SYTO3xs06fU)"
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com/photos/SYTO3xs06fU)"
 categories:
   - Blog
 tags:
