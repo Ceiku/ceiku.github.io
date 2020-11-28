@@ -22,7 +22,7 @@ If we look past the relative change in size, the big difference is that a pc is 
 
 |name|cpu|ram|display|storage|camera|
 | iphone 2G | 412mhz | 128mb | 3.5 inch 320x480 | 4-16gb | 1.92 mpx |
-| samsung  s20 ultra | 2GHz octa-core | 12gb | 6.9 inch 1440x3200 | 108mpx and more |
+| samsung  s20 ultra | 2GHz octa-core | 12gb | 6.9 inch 1440x3200 | 128-512gb + microsd | 108mpx and more |
 
 Between these devices stand nearly 13 years of improvements to smartphones, and maybe a more fair comparison would be between a laptop and a the modern smartphone, which we also explore in more detail in the next post. Over the same time period the sale of smartphones has multiplied by over a factor of ten, making it an equally big market share as desktops. This had huge impact on our day to day workflow, from emails, editing documents and collaboration, what our phones were too weak to handle on their own, we distributed to a cloud, today most users differenciate these platforms mostly on HCI, eg. a desktop has a monitor, keyboard and mouse and a windowed experience. It is only when we undertake more specialized tasks such as editing movies, developing code or even gaming that we notice the real differences, this is why most content creators use macos and gamers use windows or even propritary consoles.
 
@@ -42,3 +42,4 @@ The contextually aware services, often called automations is a key element to ma
 So to conclude the first post in the automate me series, we should understand how the ubicomp paradigm wants us to provide contextually relevant data and behaviour, and that user attention is a valuable resource. For our everyday computing needs, the personal devices, from mobile to desktop is our preffered intereface, while specialised services are preferred for some mediums like TV for video content. How well our context is utilised is up to our ecosystem, or combination of them that we either bridge manually or extend with open source solutions. The next post looks closer at our personal and other HCI devices, their history and how they have changed together with our computational habits.
 
 If you are interested in getting more hands on to improve your project or get started, go straight to my AutoLife documentation.
+{% include figure image_path="/assets/images/ha_dash.jpg" alt="a home-assistant dashboard" caption="The mess hidden under the 'rug' from navigating multiple ecosystems." %}
