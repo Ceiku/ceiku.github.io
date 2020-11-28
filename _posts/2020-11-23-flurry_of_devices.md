@@ -1,3 +1,22 @@
+---
+title: "Automate me: In a flurry of devices"
+last_modified_at: 2016-03-09T16:20:02-05:00
+excerpt_separator: "<!--more-->"
+header:
+  image: /assets/images/ubi_header_2.jpg
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com/@ranasawalha)"
+categories:
+  - Blog
+tags:
+  - Ubiquitous-Computing
+  - Automation
+  - AutoLife
+---
+It might have been hard to imagine in 1988 just how pervasive computing would become today, with our myrad of personal smart gadgets and cloud services, even 30 years before the smart phone Mark Weiser lay forth a computer paradigm called [Ubiquitous computing](https://www.lri.fr/~mbl/Stanford/CS477/papers/Weiser-SciAm.pdf) (ubicomp), in this era of calm technology, the computers themself fade unseen into the background. It is a paradigm born from how we design human-computer interfaces (HCI), and the context it provides our computations, it should make the data we would want or require available comfortably, as we move between home, office, hobbies and vacations. 
+
+<!--more-->
+
+
 As we touched upon in the last post, we tend to have a lot of devices, often they provide some common basic tasks such as everyday computing (files, web, documents and mail) while we do these tasks on both a phone and a computer they vary greatly, the phone is battery powered, has cellular and gps. The desktop in turn potentially has multiple big monitors, a keyboard and mouse. We can find it helpful to distinguish these and the catogries in between such as laptops in terms of:
 - screen-realestate (sr): a combination of the physical dimensions and pixel density.
 - periphirals: inputs like touch and keyboard, or outputs like sound and haptics.
