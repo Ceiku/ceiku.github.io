@@ -5,8 +5,8 @@ layout: tags
 author_profile: true
 ---
 [Category](/categories)
-{: .btn .btn--primary .btn--large}
+{: .btn .btn--inverse .btn--large}
 [Date](/posts)
 {: .btn .btn--inverse .btn--large}
 [Tags](/tags)
-{: .btn .btn--inverse .btn--large}
+{: .btn .btn--primary .btn--large}
