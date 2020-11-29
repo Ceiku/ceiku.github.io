@@ -3,7 +3,7 @@ permalink: /about/
 title: "About"
 author: false
 header:
-  image: /assets/images/about_header.PNG
+  image: /assets/images/about_header.png
   caption: "Photo credit: [**Unsplash**](https://unsplash.com/)"
 ---
 
