@@ -6,11 +6,12 @@ header:
   image: /assets/images/ubi_header_1.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com/@jesuskiteque)"
 categories:
-  - Blog
+  - automate me
 tags:
   - Ubiquitous-Computing
+  - Cloud computing
+  - Human Computer Interface
   - Automation
-  - AutoLife
 ---
 It might have been hard to imagine in 1988 just how pervasive computing would become today, with our myrad of personal smart gadgets and cloud services, even 30 years before the smart phone Mark Weiser lay forth a computer paradigm called [Ubiquitous computing](https://www.lri.fr/~mbl/Stanford/CS477/papers/Weiser-SciAm.pdf) (ubicomp), in this era of calm technology, the computers themself fade unseen into the background. It is a paradigm born from how we design human-computer interfaces (HCI), and the context it provides our computations, it should make the data we would want or require available comfortably, as we move between home, office, hobbies and vacations. 
 
