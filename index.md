@@ -5,7 +5,7 @@
 layout: home
 author_profile: true
 intro:
-  - excerpt: "{{ site.description }}"
+  - excerpt: {{ site.description }}
 feature_row:
   - image_path: /assets/images/vr_1.jpg
     alt: "placeholder image 1"
