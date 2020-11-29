@@ -1,6 +1,7 @@
 ---
 permalink: /about/
 title: "About"
+author: false
 header:
   image: /assets/images/about_header.PNG
   caption: "usplash"
