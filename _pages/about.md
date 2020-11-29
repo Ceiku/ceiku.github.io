@@ -2,7 +2,7 @@
 permalink: /about/
 title: "About"
 header:
-  image: /assets/images/about_header.jpg
+  image: /assets/images/about_header.PNG
   caption: "usplash"
 ---
 
