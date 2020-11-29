@@ -4,6 +4,8 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 author_profile: true
+intro:
+  - excerpt: "{{ site.description }}"
 feature_row:
   - image_path: /assets/images/vr_1.jpg
     alt: "placeholder image 1"
@@ -20,7 +22,8 @@ feature_row:
     title: "Placeholder 3"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
 ---
-{{ site.description }}
-
+{% include feature_row id="intro" type="center"%}
 
 {% include feature_row %}
+
+{{ site.description }}
