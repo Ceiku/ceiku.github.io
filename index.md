@@ -7,6 +7,8 @@ author_profile: true
 header:
   image: /assets/images/main_header.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com/)"
+intro: 
+  - excerpt: 'Here are some highlights that can be worth checking out'
 feature_row:
   - image_path: /assets/images/vr_1.jpg
     alt: "Era of Calm Computing"
@@ -23,6 +25,7 @@ feature_row:
     title: "VirtuPose"
     excerpt: "Borne from my graduating thesis, VirtuPose is the next platform for flexible and cheap pose recognition in VR"
 ---
+{% include feature_row id="intro" type="centered" %}
 
 {% include feature_row %}
 
