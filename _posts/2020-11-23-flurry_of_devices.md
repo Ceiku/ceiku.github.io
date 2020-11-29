@@ -6,7 +6,7 @@ header:
   image: /assets/images/ubi_header_2.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com/@ranasawalha)"
 categories:
-  - automateme
+  - automate me
 tags:
   - Ubiquitous-Computing
   - Smart devcies
