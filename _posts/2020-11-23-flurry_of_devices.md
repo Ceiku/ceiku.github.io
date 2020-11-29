@@ -26,8 +26,10 @@ Depending on your local network, a gaming station with an ethernet connection to
 
 At the base of all our computational interactions we have everyday computing, with over x% of the population online on a personal device, we see that this has been growing quickly over the last years, online presence, social media, news and storing our important files are all integer parts of our modern lifestyles, no matter where we are on the planet. Everything from an entrylevel smartphone is enough to provide a comfortable way to digest and interact with the whole world, and with services like linkedin and online banks, it could be considered a base utility. While the smartphone has become the most persvasive personal device, there are a lot of tasks where we prefer the keyboard, mouse and larger screen-realestate provided by desktop environments, editing big excel sheets, writing long documents etc, device segments where we see laptop-tablet hybrids such as the ms surface, or tablet-laptop hybrids such as DeX or iPad OS with the magic keyboard folio indicate that the capabilities of these devices and their OS are converging. It might seem complicated, and an uncertain terrain, but it offers a wide new set off possibilities for end users and businesses alike.
 
+{% include figure image_path="/assets/images/vr_common.jpg" alt="a home-assistant dashboard" caption="As VR offers higher immersion than on-screen content it provides a novel interface to data." %}
 
-**Many phones provide both support for external keyboard and mouse with a monitor and often such an adapter as this, in the case of Samsung DeX we get something a lot closer to our usual desktop experience while still doubling as a phone, you can read more on this post where I compare mobile desktop hybrids and discuss my own choices of devices.
+Many phones provide both support for external keyboard and mouse with a monitor and often such an adapter as this, in the case of Samsung DeX we get something a lot closer to our usual desktop experience while still doubling as a phone, you can read more on this post where I compare mobile desktop hybrids and discuss my own choices of devices.
+{: .notice--info}
 
 So as we can move further away from classifying devices by their architecture or OS, we rather define them by their HCI such as screen-realestate (a combination of resolution and dimensions), other periphirals (eg touch vs mouse) and sensors as more services become unified through a cloud interface. Resource demanding or centralized tools may be presented in webviews such as the code-server that hosts a full Visual Studio Code IDE as a webview, it is low impact on network bandwidth as only requested files and their changes are sent between the client and server, where it can be compiled and run. It is the same for someone rendering a 3D model, their tablet or phone is suffiecient to present and interact, the selected operations can then be handled remotely to perserve battery life and reduce computation time, as long as the workload is determinate (a set number of instructions to perform) using cloud computing is a viable option and may in fact be economically better.
 
@@ -41,6 +43,7 @@ To conclude the second post on automate me, we have seen that mobile and tablets
 
 In the next section we continue down the ladder to smart devices and the internet of things, and how to use them and much more to create a context for automation and synergy.
 
-NOTE ** When we lease cloud instances we might always want access to the IDE node, so keeping this as small as possible reduces costs when we are editing the code, we would usually create independent instances for running and testing.
+When we lease cloud instances we might always want access to the IDE node, so keeping this as small as possible reduces costs when we are editing the code, we would usually create independent instances for running and testing.
+{: .notice--info}
 
 
