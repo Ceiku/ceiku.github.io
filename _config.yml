@@ -16,9 +16,7 @@
 title: A Developers Notebook
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Both a top level directory for some of my projects and contributions.
-  Along with some posts on computing habits and how to automate some habits.
-  Some Extra lorum
+  From my days as an undergrad and tech enthusiast I started out with home automation and machine learning, it has been a long and interesting road and here are some of my projects along with some argumentation for design choices and architecture. I have tried to present the blog in layman term, the same way I have had to explain it to friends, family and students.
 twitter_username: username
 github_username: ceiku
 minimal_mistakes_skin: air
