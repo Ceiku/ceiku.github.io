@@ -6,11 +6,12 @@ header:
   image: /assets/images/ubi_header_2.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com/@ranasawalha)"
 categories:
-  - Blog
+  - automateme
 tags:
   - Ubiquitous-Computing
-  - Automation
-  - AutoLife
+  - Smart devcies
+  - Cloud computing
+  - Human Computer Interface
 ---
 In 2020 every person world wide has on average 6 things connected to the internet, it is truly a flurry of devices and things from fitness trackers to desktop computers. Understanding our habits and computational resource needs can both save us money as well as provide new features, imagine using one cable to turn your phone into a desktop computer, or a tablet that elegantly could double as a laptop, even providing you with end of the line desktop games on the go.
 <!--more-->
