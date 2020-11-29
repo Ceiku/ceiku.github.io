@@ -7,11 +7,11 @@ author_profile: true
 feature_row:
   - image_path: /assets/images/vr_1.jpg
     alt: "Era of Calm Computing"
-    title: "Era of Calm Computing"
+    title: "Calm Computing"
     excerpt: "In this exploration of ubiquity in modern computing we will see how we can both save money, and gain new features as well"
   - image_path: /assets/images/scifi-ar.jpg
     alt: "Automate me"
-    title: "Owning Our Services"
+    title: "Our Services"
     excerpt: "Taking control of our own services is much more than replacing what we have, it is about getting what we want."
     url: "#test-link"
     btn_label: "Read More"
