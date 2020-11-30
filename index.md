@@ -11,7 +11,7 @@ feature_row:
   - image_path: /assets/images/vr_1.jpg
     alt: "Era of Calm Computing"
     title: "Calm Computing"
-    excerpt: "In this exploration of ubiquity in modern computing we will see how we can both save money, and gain new features as well"
+    excerpt: "In this exploration of ubiquity in modern computing we will see how we can both save money, and gain new features"
     url: "#test-link"
     btn_label: "Start reading!"
     btn_class: "btn--inverse"
