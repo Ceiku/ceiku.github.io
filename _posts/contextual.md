@@ -18,3 +18,5 @@ From fitness trackes, gps, climate and more, we all tie together an enourmous am
 
 <!--more-->
 
+
+Internet of Things pertains to physical network connected "things", devices that aren't quite the same as a computer. In their simplest form they are sensors and actuators that help us gather context and act on it, this is not limited to physical devices, your email spamfilter has a "sensor" for incomming mail, and an actuates movement of unwanted mail away from your inbox. Which is why in the terms of context and automation, the cloud and IoT is closely knit, 
