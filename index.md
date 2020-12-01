@@ -5,7 +5,7 @@
 layout: home
 author_profile: true
 header:
-  image: /assets/images/main_header.jpg
+  overlay_image: /assets/images/main_header.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com/)"
 feature_row:
   - image_path: /assets/images/vr_1.jpg
