@@ -7,6 +7,7 @@ author_profile: true
 header:
   overlay_image: /assets/images/main_header.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com/)"
+  show_overlay_excerpt: false
 feature_row:
   - image_path: /assets/images/vr_1.jpg
     alt: "Era of Calm Computing"
