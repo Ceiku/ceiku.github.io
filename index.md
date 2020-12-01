@@ -4,6 +4,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 author_profile: true
+title: ""
 header:
   overlay_image: /assets/images/main_header.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com/)"
