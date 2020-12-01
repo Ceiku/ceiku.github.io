@@ -12,7 +12,7 @@ feature_row:
     alt: "Era of Calm Computing"
     title: "Calm Computing"
     excerpt: "In this exploration of ubiquity in modern computing we will see how we can both save money, and gain new features"
-    url: "/categories/"
+    url: "/categories/#automate-me"
     btn_label: "Start reading!"
     btn_class: "btn--inverse"
   - image_path: /assets/images/scifi-ar.jpg
