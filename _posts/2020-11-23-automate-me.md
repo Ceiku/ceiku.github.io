@@ -54,7 +54,7 @@ For most people, this convenience far outweighs the consequence of ones flight i
 
 What we cannot do here is ask Alexa or Siri to get this information for me just as easy, this is where open source solutions shine, they let us "jump" these proprietary walls to connect services and created features that companies cannot or will not do themselves. That is what the Automate Me project is for, the repository has a collection of open source services and tools from common infrastructure to home automation that works together seamlessly. The calm era of computing actually thrives when we give it some contextual data to work with, it stops having to ask or be told, as with the travel itinrary, it saves the user from spending any attention to the task. Out of sight and out of mind is a good way to think of what should make services and devices "smart", and paraphrasing "groponte" from his ted talk:
 
-*"An oven is not smart because I put a chicken on it and can set the dials from my phone, it would be so by asking how well cooked I'd like my chicken, perhaps already know."*
+*"An oven is not smart because I put a chicken in and can set the dials from my phone, it would be so by asking how well cooked I'd like my chicken, perhaps already know."*
 {: .text-center}
 
 As we move forward through these posts we will see some major challenges, and how we might move our digital lives from dials, to become unseen and autonomous. The next post looks closer at our personal and other HCI devices, their history and how they have changed together with our computational habits, and if you are interested in getting more hands on to improve your project or get started, go straight to my [AutoLife documentation](https://ceiku.github.io/AutoLife/).
