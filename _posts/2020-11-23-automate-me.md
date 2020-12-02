@@ -13,7 +13,7 @@ tags:
   - Human Computer Interface
   - Automation
 ---
-It might have been hard to imagine at the dawn of personal computers in the 80's just how pervasive personal computers would become today, with our myriad of personal smart gadgets and cloud services, and about 15 years prior to smartphones, place Mark Weiser laid forth a computer paradigm called [Ubiquitous computing](https://www.lri.fr/~mbl/Stanford/CS477/papers/Weiser-SciAm.pdf) (ubicomp). In this era of calm technology, the computers fade into the background.
+It might have been hard to imagine at the dawn of personal computers in the 80's just how pervasive personal computers would become today, with our myriad of personal smart gadgets and cloud services. And about 15 years prior to smartphones, place Mark Weiser laid forth a computer paradigm called [Ubiquitous computing](https://www.lri.fr/~mbl/Stanford/CS477/papers/Weiser-SciAm.pdf) (ubicomp), in this era of calm technology, the computers fade into the background.
 It is a paradigm born from how we design human-computer interfaces (HCI), and the context it provides our computations, it should make the data we would want or require available comfortably, as we move between home, office, hobbies and vacations. 
 
 
@@ -47,10 +47,14 @@ To some people this lack of control may have led them to think "No way I would a
 
 {% include figure image_path="/assets/images/ha_dash.png" alt="a home-assistant dashboard" caption="A simple Home-Assistant dashboard that unifies a lot of brands and services into one interface, from different brand lightings, to custome public transport departures and chores." %}
 
-Perhaps we don't want to replace everything, no need to re-invent the wheel, and commercial solutions often offer a lot of contextual automation out of the box, using google as a mail provider creates an itinirary that tracks my journey when I recieve a flight confirmation etc into my inbox. It offers a calculated departure time from my residence based on traffic estimates, and now in the pandemic it even offers the most up to date regulations relevant for the trip. For most people, this convenience far outweighs the consequence of ones flight information being visible to google; it was to begin with anyway.
+Perhaps we don't want to replace everything, no need to re-invent the wheel, and commercial solutions often offer a lot of contextual automation out of the box, using google as a mail provider creates an itinirary that tracks my journey when I recieve a flight confirmation etc into my inbox. It offers a calculated departure time from my residence based on traffic estimates, and now in the pandemic it even offers the most up to date regulations relevant for the trip. 
+
+For most people, this convenience far outweighs the consequence of ones flight information being visible to google; it was to begin with anyway.
+{: .notice--info}
 
 What we cannot do here is ask Alexa or Siri to get this information for me just as easy, this is where open source solutions shine, they let us "jump" these proprietary walls to connect services and created features that companies cannot or will not do themselves. That is what the Automate Me project is for, the repository has a collection of open source services and tools from common infrastructure to home automation that works together seamlessly. The calm era of computing actually thrives when we give it some contextual data to work with, it stops having to ask or be told, as with the travel itinrary, it saves the user from spending any attention to the task. Out of sight and out of mind is a good way to think of what should make services and devices "smart", and paraphrasing "groponte" from his ted talk:
 
-"An oven is not smart because I put a chicken on it and can set the dials from my phone, it would be so by asking how well cooked I'd like my chicken, perhaps already know."
+__*"An oven is not smart because I put a chicken on it and can set the dials from my phone, it would be so by asking how well cooked I'd like my chicken, perhaps already know."*__
+{: .text-center}
 
 As we move forward through these posts we will see some major challenges, and how we might move our digital lives from dials, to become unseen and autonomous. The next post looks closer at our personal and other HCI devices, their history and how they have changed together with our computational habits, and if you are interested in getting more hands on to improve your project or get started, go straight to my [AutoLife documentation](https://ceiku.github.io/AutoLife/).
