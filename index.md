@@ -30,6 +30,5 @@ feature_row:
     btn_label: "Visit"
     btn_class: "btn--inverse"
 ---
-{% include feature_row %}
 
 {{ site.description }}
