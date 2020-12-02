@@ -42,6 +42,8 @@ While the smartphones are a wonder device in terms of HCI that in many cases sup
 
 The reason why we would hardly notice the switch (and tablet computing is trending) is that most of our tools and files now exist in the cloud, as end consumers we only need to store personal or sensitive data locally or encrypted. My work as a developer is done in cloud tools such as vs code remote or code-server, full IDE environments available as webviews, it's like having my work environment anywhere there's a browser. Mobile devices are also cheaper, and makes no noise compared to their laptop or stationary counterparts.
 
+{% include figure image_path="/assets/images/office_with_view.jpg" alt="a home-assistant dashboard" caption="With a cellular tablet, anywhere can become your office, and a simple powerbank goes a long way to extend it to days." %}
+
 It is not an unknown problem to become "plaform dependent" however, eg. Apple TimeMachine backup feature is available on macOS devices, where you can use any external storage to make backups of all your personal data incrimentally, it is easy to use and has a good interface; it is easy to understand that someone would keep bying the same platform. But it's only easy in so far as you keep bying from the same manufacturer, this even applies to new platforms (eg. smart watch to phone compatability, or software to OS).
 These are proprietary walls to our ubuquitous dream, but some people just don't do that kind of compromise.
 
