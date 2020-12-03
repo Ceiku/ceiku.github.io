@@ -40,22 +40,19 @@ This change of perspective lets us view personal computers through their human-c
 
 Fewer devices frees up assets, we could get higher performing devices instead, or buy those things we otherwise would not afford, to know when to buy and lease power for our cloud can be a bit tricky. If we want high end graphics for the most recent titles we should expect a pricepoint of about 10-20$ a month, the graphics card alone of such a system might cost somewhere between 500-1000$ for the investment to be worth it, we would at the very least need to perform at that level for 25 months before replacing, that's not even considering the rest of the computer components. Low consumption users might find it differently, with a raspberry pi (rpi) 4b (less than 100$) or a simple core i3 SBC (about 250$ and up) can be enough to provide a cloud platform for everyday computing and some minor content creation. Leasing such an instance in the cloud would cost about 10-20$ monthly, and we can see how quickly our small investment pays off.
 
+Some commercial cloud gaming platoforms even offer free-tiers with limited session times (promts to login again) and reduced resolution and graphics; who says there's no such thing as free lunch.
+{: .notice--info}
+
 {% include figure image_path="/assets/images/vr_common.jpg" alt="a home-assistant dashboard" caption="My DeX setup with a usb-c cable to the monitor for display, monitor usb hub and charghing my phone, using external drives and midi equipment is plug and play, no fans or spinning disks" %}
+
+There is another positive aspect of having a computer that's always running in the background, we can get a context from all our devices and things gathered together, and besides the computers are the Internet of Things (IoT) which are can be a tiny microchip with wifi connection, which can be very cheap (the popular ESP chipset family is something we also use more here). They are usually not smart devices at all, and in general they have sensors to provide our system with context, and actuators that let us take action on it. How well an automation works, can be seen in terms of user attention it removes from a task, as we discussed in the last post it might be a flight itinirary, but turning of the light when no one is home, maybe starting the vacuumer if its not too late as well, we only need to be reminded when we should empty the bin. The smartness of these services lays in their ability to "predict" our preferences, a smart home is thus nothing without the brains. 
 
 
 {% include figure image_path="/assets/images/vr_common.jpg" alt="a home-assistant dashboard" caption="New infrastructure, new possibilites" %}
 
-At one my most device riddled point I had my phone, a work laptop and tablet, and a gaming desktop, keeping these devices up to date is a big expense, and now that my phone has taken over for my desktop, and my tablet doubles in as a laptop with its keyboard folio, selling the superflous devices (also the most expensive ones) freed up a lot of assets and saves me from future investments like it. In fact even for specialized usage like gaming, if we can manage a 20-30ms delay difference we can save a lot of money from commercial solutions, some even offer free-tiers with limited session times (promts to login again) and reduced resolution and graphics; who says there's no such thing as free lunch.
 
 
-Developers can in many regards be low consumption users too, even a rpi 4b can host code-server that allows us to edit the code, that we then deploy to powerful cloud instances. If a powerful desktop would use 100h to train a neural network, it would be unavailable for the duration, but if we deploy to 100 equally strong nodes in the cloud we could pay at an hour increment and get the answer that quickly.
-{: .notice--info}
-
-To conclude the second post on automate me, we have seen that mobile and tablets have become powerful devices that together with cloud platforms have erased a lot of the initial differences between the platforms, desktop hybrid that allows mobile devices to use keyboards and mouse natively in a windowed experience draws us closer to a convergence, where desktops and mobiles are ubiquitous. By understanding our habits and how they interplay with our HCI needs we should be able to reduce the amount of devices we need, this saves us money, space, noise and even opens up to new possibilies. 
 
 In the next section we continue down the ladder to smart devices and the internet of things, and how to use them and much more to create a context for automation and synergy.
-
-When we lease cloud instances we might always want access to the IDE node, so keeping this as small as possible reduces costs when we are editing the code, we would usually create independent instances for running and testing.
-{: .notice--info}
 
 
