@@ -38,7 +38,7 @@ Between these devices stand 13 years of inovation, it is a perfect example of mo
 
 While the smartphones are a wonder device in terms of HCI that in many cases support these periphirals, there hasn't been large innitiative to create a mobile OS that provide the same windowed multitasking environment; until now, Samsung DeX and iPad OS is the first comfortable mobile-desktop hybrids. Microsoft has gone the other way with their Surface, which is desktop hardware shaped as a tablet, they have made some changes to Windows to make it touch interface friendly.
 
-{% include figure image_path="/assets/images/ecosystem.jpg" alt="a home-assistant dashboard" caption="A creative workstation and devices in a very propietary homogenous ecosystem." %}
+{% include figure image_path="/assets/images/samsungdex.PNG" alt="a home-assistant dashboard" caption="Samsung dex provides a rich windowed environment, even a lot of common keybindings etc are present. [credit](https://www.samsung.com/us/explore/dex/)" %}
 
 The reason why we would hardly notice the switch (and tablet computing is trending) is that most of our tools and files now exist in the cloud, as end consumers we only need to store personal or sensitive data locally or encrypted. My work as a developer is done in cloud tools such as vs code remote or code-server, full IDE environments available as webviews, it's like having my work environment anywhere there's a browser. Mobile devices are also cheaper, and makes no noise compared to their laptop or stationary counterparts.
 
