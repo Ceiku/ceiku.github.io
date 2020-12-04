@@ -5,8 +5,27 @@ author_profile: false
 header:
   image: /assets/images/about_header.png
   caption: "Photo credit: [**Unsplash**](https://unsplash.com/)"
+feature_row:
+  - image_path: /assets/images/vr_1.jpg
+    alt: "Era of Calm Computing"
+    title: "Calm Computing"
+    excerpt: "In this exploration of ubiquity in modern computing we will see how we can both save money, and gain new features"
+    url: "/categories/#automate-me"
+    btn_label: "Start reading!"
+    btn_class: "btn--inverse"
+  - image_path: /assets/images/scifi-ar.jpg
+    alt: "Automate me"
+    title: "Automate Me"
+    excerpt: "Taking control of our own services is much more than replacing what we have, it is about getting what we want."
+    url: "#test-link"
+    btn_label: "To repo"
+    btn_class: "btn--inverse"
+  - image_path: /assets/images/vr_1.jpg
+    title: "VirtuPose"
+    excerpt: "Borne from my graduating thesis, VirtuPose is the next platform for flexible and cheap pose recognition in VR"
+    url: "#test-link"
+    btn_label: "Visit"
+    btn_class: "btn--inverse"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
-
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+{{ site.description }}
