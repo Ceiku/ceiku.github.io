@@ -13,7 +13,7 @@ tags:
   - Human Computer Interface
   - Automation
 ---
-It might have been hard to imagine at the dawn of personal computers in the 80's just how pervasive personal computers would become today, with our myriad of personal smart gadgets and cloud services. And about 15 years prior to smartphones, place Mark Weiser laid forth a computer paradigm called [Ubiquitous computing](https://www.lri.fr/~mbl/Stanford/CS477/papers/Weiser-SciAm.pdf) (ubicomp), in this era of calm technology, the computers fade into the background.
+It might have been hard to imagine at the dawn of personal computers in the 80's just how pervasive they would become today, with our myriad of personal smart gadgets and cloud services. And about 15 years prior to smartphones, place Mark Weiser laid forth a computer paradigm called [Ubiquitous computing](https://www.lri.fr/~mbl/Stanford/CS477/papers/Weiser-SciAm.pdf) (ubicomp), in this era of calm technology, the computers fade into the background.
 It is a paradigm born from how we design human-computer interfaces (HCI), and the context it provides our computations, it should make the data we would want or require available comfortably, as we move between home, office, hobbies and vacations. 
 
 
