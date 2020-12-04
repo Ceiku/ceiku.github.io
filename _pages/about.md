@@ -2,6 +2,7 @@
 permalink: /about/
 title: "About"
 author_profile: false
+layout: splash
 header:
   image: /assets/images/about_header.png
   caption: "Photo credit: [**Unsplash**](https://unsplash.com/)"
