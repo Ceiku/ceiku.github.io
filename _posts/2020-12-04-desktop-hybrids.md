@@ -3,7 +3,7 @@ title: "Mobile desktops, just a hybrid?"
 last_modified_at: 2016-03-09T16:20:02-05:00
 excerpt_separator: "<!--more-->"
 header:
-  image: /assets/images/ubi_header_1.jpg
+  image: /assets/images/desktopless.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com/@jesuskiteque)"
 categories:
   - workflow
