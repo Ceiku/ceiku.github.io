@@ -16,17 +16,17 @@ In 2020 every person world wide has on average 6 things connected to the interne
 <!--more-->
 
 
-{% include figure image_path="/assets/images/automation2.jpg" alt="a home-assistant dashboard" caption="For simplicity we can envision our personal computer as a common interface for itself and remote resources." %}
+{% include figure image_path="/assets/images/automation2.jpg" alt="a home-assistant dashboard" caption="Robotics and autonomous systems are capable of doing complex tasks that has often been reserved for humans, now they can not only beat Kasparov in a digital version of chess, it could play him on a board as we would." %}
 
 At the base of all our computational interactions we have everyday computing, with over x% of the population online on a personal device, we see that this has been growing quickly over the last years, online presence, social media, news and storing our important files are all integer parts of our modern lifestyles, no matter where we are on the planet, with services like LinkedIn, online banking and emergency hotlines computation and internet have become utilities of necessity. As we saw discussed in the last post, any modern smartphone or equivalent is enough to provide all of these, and a indepth introduction of mobile-desktops and my experiences with iPad OS and Samsung DeX is found here.
 
-__*If the cloud is the brain, then IoT is the central nervous system.*__
+__*If the brains of automations are in the cloud, then IoT is the central nervous system.*__
 {: .text-center}
 
 Ubicomp is about so much more than just interacting with the data we ask for on the devices we're using, it is equally much about leveraging a context to provide automations that either removes or reduces the need for user attention. Lets imagine the use case of scheduling our robot vacuum, we could usually use a proprietary app to start or stop a cleaning cycle, or even make a schedule, for people with strict routines this could be enough. I have a more flexible day to day routine, and during the pandemic my trips out the door are fewer, so it would be nice if it knew when I wasn't home, or left the neighbourhood, to do this we need to provide a _presence_ context. One simple way for home automation would be phone gps or home wifi, but for public spaces or guest users we cannot use these tools; it would be nice if they were general to their physical location, rather than related to a specific user. This is true for a lot of uses, from medical instruments to weather stations, in some cases such as storage facilites, factories etc might be nearly autonomous and need very little human oversight.
 
 Amazon even had an automated concept store that removed cashiers and registers, and rather used object and facial recognition to register your purchases.
-{: .notify-info}
+{: .notice--info}
 
 In fact, while we might not think of it, most of 'our' devices are not in our homes or office, they are represented as the enourmous and numerous server farms of cloud platform providers, from something as simple as file-syncing between devices and backups, to simulating economic models. Or the sheer scale of enterprise IoT in storage facilites and other automations, what we personally own is really just pees anyway, but there are a lot more of us potential IoT device owners out there, so it faces us with some grand challanges in protocol discovery, network topology and security. 
 
