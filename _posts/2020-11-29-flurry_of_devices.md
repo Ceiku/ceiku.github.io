@@ -56,7 +56,7 @@ On my local network I achieve about 10-15ms with only the client over wifi (AC/A
 
 {% include figure image_path="/assets/images/vr_common.jpg" alt="a home-assistant dashboard" caption="Some environments like VR are very sensitive to latency changes, and can cause nausea and other feelings of discomfort." %}
 
-High end graphics on recent titles is about 10-30$ a month for commercial cloud gaming platforms, the graphics card alone of such a system might cost somewhere between 500-1500$ depending on our graphical setting and resolution. For a 500$ card to cheaper over time than the 10$ subscription it would need to provide the same level of quality on new titles up to 50 months (little over 4 years).
+High end graphics on recent titles is about 10-30$ a month for commercial cloud gaming platforms, the graphics card alone of such a system might cost somewhere between 500-1000$ depending on our graphical setting and resolution. For a 500$ card to cheaper over time than the 10$ subscription it would need to provide the same level of quality on new titles up to 50 months (little over 4 years).
 
 It is a different story for low and midt tier general purpose computers as a raspberry pi (rpi) (50-100$) or a core i3 build (+-250$), it is enough for most tasks and comes at a much lower initial investment making it accessible to people on low budgets. Leasing such an instance in the cloud would cost about 5-20$ monthly, and for most home server tasks this is sufficient power in a node.
 
