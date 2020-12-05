@@ -29,12 +29,16 @@ Ubicomp is about so much more than just interacting with the data we ask for on 
 
 I have a more flexible day to day routine, and during the pandemic my trips out the door are fewer, so it would be nice if it knew when I wasn't home, or left the neighbourhood, to do this we need to provide a _presence_ context.
 
+{% include figure image_path="/assets/images/dog_home.jpg" alt="a home-assistant dashboard" caption="It might not always be phone users, or even humans at home while it's not empty." %}
+
 One simple way for home automation would be phone gps or home wifi, but for public spaces or guest users we cannot use these tools; it would be nice if they were general to their physical location, rather than related to a specific user. This is true for a lot of uses, from medical instruments to weather stations, in some cases such as storage facilites, factories etc might be nearly autonomous and need very little human oversight.
 
 Amazon even had an automated concept store that removed cashiers and registers, and rather used object and facial recognition to register your purchases.
 {: .notice--info}
 
 In fact, while we might not think of it, most of 'our' devices are not in our homes or office, they are represented as the enourmous and numerous server farms of cloud platform providers, from something as simple as file-syncing between devices and backups, to simulating economic models. Or the sheer scale of enterprise IoT in storage facilites and other automations, what we personally own is really just pees anyway, but there are a lot more of us potential IoT device owners out there, so it faces us with some grand challanges in protocol discovery, network topology and security. 
+
+{% include figure image_path="/assets/images/connected_city.jpg" alt="a home-assistant dashboard" caption="It might not always be phone users, or even humans at home while it's not empty." %}
 
 If we imagine the top of the line desktop would use 10h to compute one problem, then any other interaction in between would add to the total duration, in other words it is unavailable. Since these machines could easily use hundreds of hours to train deep neural networks, having the ability to inflate, to scale our work to another powerful node, or distribute it over many; if we lease cloud instances at 1m intervals, then hundreds of hours can be reduced to a single minute. This ability to produce results and test this quickly is can be essential, like sequencing a virus DNA and simulating vaccines to respond to a crisis. Just check our colab for how to use free GPU and TPU resources in the cloud.
 
@@ -51,7 +55,11 @@ Distributed computing introduces two new factors to consider, network bandwidth 
 
 On my local network I achieve about 10-15ms with only the client over wifi (AC/AX) using parsec on a window host, from commercial solutions lice GeForce I have about 20-50ms depending on which network I was connected to (office, cafe or home), these are a small nuisance at best since you can even game with a free-tier on GeForce with lower graphics and resolution; now who says there's no such thing as a free lunch.
 
-If we want high end graphics for the most recent titles we should expect a pricepoint of about 10-20$ a month, the graphics card alone of such a system might cost somewhere between 500-1000$ for the investment to be worth it, we would at the very least need to perform at that level for 25 months before replacing, that's not even considering the rest of the computer components. This changes as we move towards low tier computers such as raspberry pi (rpi) 4b (less than 100$) or a simple core i3 SBC (about 250$ and up) can be enough to provide a cloud platform for everyday computing to some minor content creation, the initial investment is also a lot lower.
+{% include figure image_path="/assets/images/desktopless.jpg" alt="a home-assistant dashboard" caption="It might not always be phone users, or even humans at home while it's not empty." %}
+
+If we want high end graphics for the most recent titles we should expect a pricepoint of about 10-20$ a month, the graphics card alone of such a system might cost somewhere between 500-1000$ for the investment to be worth it, we would at the very least need to perform at that level for 25 months before replacing, that's not even considering the rest of the computer components.
+
+This changes as we move towards low tier computers such as raspberry pi (rpi) 4b (less than 100$) or a simple core i3 SBC (about 250$ and up) can be enough to provide a cloud platform for everyday computing to some minor content creation, the initial investment is also a lot lower.
 
 Leasing such an instance in the cloud would cost about 5-20$ monthly, so investing in a local system can be cost efficient; but there are some considerations to the safety and availability infrastructure that commercial solutions otheriwse provide, take a look at the [infrastructure documentation](https://ceiku.github.io/automateme/infrastructure/) for more.
 {: .notice--info}
