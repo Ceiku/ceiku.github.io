@@ -28,11 +28,11 @@ Ubicomp is about so much more than just interacting with the data we ask for on 
 
 I have a more flexible day to day routine, and during the pandemic my trips out the door are fewer, so it would be nice if it knew when I wasn't home, or left the neighbourhood, to do this we need to provide a _presence_ context.
 
-{% include figure image_path="/assets/images/dog_home.jpg" alt="a home-assistant dashboard" caption="It might not always be phone users, or even humans at home while it's not empty." %}
+{% include figure image_path="/assets/images/dog_home.jpg" alt="a home-assistant dashboard" caption="It might not always be phone users, or even humans at home that makes us consider it not empty." %}
 
 One simple way for home automation would be phone gps or home wifi, but for public spaces or guest users we cannot use these tools; it would be nice if they were general to their physical location, rather than related to a specific user. This is true for a lot of uses, from medical instruments to weather stations, in some cases such as storage facilites, factories etc might be nearly autonomous and need very little human oversight.
 
-Amazon even had an automated concept store that removed cashiers and registers, and rather used object and facial recognition to register your purchases.
+Amazon even has an automated [concept store](https://www.amazon.com/b?ie=UTF8&node=16008589011) that removed cashiers and registers, and rather used object and facial recognition to register your purchases.
 {: .notice--info}
 
 In fact, while we might not think of it, most of 'our' devices are not in our homes or office, they are represented as the enourmous and numerous server farms of cloud platform providers, from something as simple as file-syncing between devices and backups, to simulating economic models. Or the sheer scale of enterprise IoT in storage facilites and other automations, what we personally own is really just pees anyway, but there are a lot more of us potential IoT device owners out there, so it faces us with some grand challanges in protocol discovery, network topology and security. 
