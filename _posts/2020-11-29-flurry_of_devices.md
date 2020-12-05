@@ -2,7 +2,7 @@
 title: "Automate me: A flurry of devices"
 excerpt_separator: "<!--more-->"
 header:
-  image: /assets/images/ubi_header_2.jpg
+  image: /assets/images/flurry_header.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com/@ranasawalha)"
 categories:
   - automate me
@@ -65,9 +65,7 @@ Leasing such an instance in the cloud would cost about 5-20$ monthly, but as we 
 There are some considerations to the safety and availability infrastructure that commercial solutions otheriwse provide, take a look at the [infrastructure documentation](https://ceiku.github.io/automateme/infrastructure/) for more.
 {: .notice--info}
 
-{% include figure image_path="/assets/images/smarthome.jpg" alt="a home-assistant dashboard" caption="For end consumers IoT is really about smart homes and gadgets, it encompasses everything from the fitness data from their watch, to the list written on the fridge, the devices, features and compromises we make to get them are all different, so there is no two smarthomes quite the same." %}
-
-I have a in-ear headset that is most frequently in use when I work out, so a practical automation was to have my workout playlist start playing when they connected to my phone; great for me, maybe not for you. The major challenge is selecting good devices and software, in many cases this leads to high expenses, but stubborn and crafty people usually find a way (as getting a reluctant old roomba to be wi-fi connected.)
+{% include figure image_path="/assets/images/smarthome.jpg" alt="a home-assistant dashboard" caption="For end consumers IoT is really about smart homes and gadgets, it encompasses everything from the fitness data from their watch, to the list written on the fridge, the devices, features and compromises we make to get them are all different, no two smarthomes are quite the same." %}
 
 And to conclude the second post in the Automate Me series we should have noted that how devices let us peform our computational interactions have become more critical than the resources they provide locally, with good network bandwidth and low delay times the resources we need are at our disposal, anywhere. We should be aware of how to balance scaling up and out, some tasks require high responsivity and might set a lower bound on local resources, scaling up can let us solve complex tasks in very short timeframes.
 
