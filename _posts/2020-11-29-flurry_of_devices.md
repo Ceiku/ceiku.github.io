@@ -21,7 +21,7 @@ At the base of all our computational interactions we have everyday computing, wi
 
 Most of our interactions with computation are clients to servers, depending on the task they distribute the workload differently, editing a local document needs no server interaction, while automations such as travel itiniraries are computed remotely. You can keep reading on how to build or extend your own cloud services [here](/automateme/), or additional information on personal devices [here](/workflow/desktop-hybrids/).
 
-__*If the brains of automations are in the cloud, then IoT is the central nervous system.*__
+__*"If the brains behind automations are in the cloud, then IoT becomes its central nervous system."*__
 {: .text-center}
 
 Ubicomp is about so much more than just interacting with the data we ask for on the devices we're using, it is equally much about leveraging a context to provide automations that either removes or reduces the need for user attention. Lets imagine the use case of scheduling our robot vacuum, we could usually use a proprietary app to start or stop a cleaning cycle, or even make a schedule, for people with strict routines this could be enough. 
@@ -41,7 +41,7 @@ In fact, while we might not think of it, most of 'our' devices are not in our ho
 
 If we imagine the top of the line desktop would use 10h to compute one problem, then any other interaction in between would add to the total duration, in other words it is unavailable. Since these machines could easily use hundreds of hours to train deep neural networks, having the ability to inflate, to scale our work to another powerful node, or distribute it over many; if we lease cloud instances at 1m intervals, then hundreds of hours can be reduced to a single minute. This ability to produce results and test this quickly is can be essential, like sequencing a virus DNA and simulating vaccines to respond to a crisis. Just check our colab for how to use free GPU and TPU resources in the cloud.
 
-{% include figure image_path="/assets/images/vr_common.jpg" alt="a home-assistant dashboard" caption="I don't know  about you, but I have never been fond of all the cables, the noise from disks and fans of using stationary computers, (hearing a gaming rig under load is like experiencing a plane perpetually take off next to you)." %}
+{% include figure image_path="/assets/images/clustered.jpg" alt="a home-assistant dashboard" caption="These produce a lot of heat and noise, besides being a big investment, it also requires more maintenance." %}
 
 While the distinction IoT can be a bit blurry in terms of which devices, or 'things' are included, one distinction is to say it needs to be a network connected microcontroller.
 But this excludes small systems on a chip like rpi zero that has supports desktop OS like raspbian, and while both of these groups of devices has sensors, actuators and limited amounts of local computational resource, we usually need a server that can organize and execute heavier tasks.
@@ -54,11 +54,11 @@ Distributed computing introduces two new factors to consider, network bandwidth 
 
 On my local network I achieve about 10-15ms with only the client over wifi (AC/AX) using parsec on a window host, from commercial solutions lice GeForce I have about 20-50ms depending on which network I was connected to (office, cafe or home), these are a small nuisance at best since you can even game with a free-tier on GeForce with lower graphics and resolution; now who says there's no such thing as a free lunch.
 
-{% include figure image_path="/assets/images/desktopless.jpg" alt="a home-assistant dashboard" caption="It might not always be phone users, or even humans at home while it's not empty." %}
+{% include figure image_path="/assets/images/vr_common.jpg" alt="a home-assistant dashboard" caption="Some environments like VR are very sensitive to latency changes, and can cause nausea and other feelings of discomfort." %}
 
-If we want high end graphics for the most recent titles we should expect a pricepoint of about 10-20$ a month, the graphics card alone of such a system might cost somewhere between 500-1000$ for the investment to be worth it, we would at the very least need to perform at that level for 25 months before replacing, that's not even considering the rest of the computer components.
+If we want high end graphics for the most recent titles we should expect a pricepoint of about 10-30$ a month for commercial cloud gaming platforms, the graphics card alone of such a system might cost somewhere between 500-1500$ depending on our graphical setting and resolution, this is not even considering the other components of the computer. For a 500$ card to be cheaper than the 10$ subscription it would need to provide the same level of quality on new titles up to 50 months (little over 4 years), you could maybe get away with updating the rest of the host at half that frequency.
 
-This changes as we move towards low tier computers such as raspberry pi (rpi) 4b (less than 100$) or a simple core i3 SBC (about 250$ and up) can be enough to provide a cloud platform for everyday computing to some minor content creation, the initial investment is also a lot lower.
+This changes as we move towards low tier computers such as raspberry pi (rpi) 4b (less than 100$) or a simple core i3 SBC (about 250$ and up) can be enough to provide a cloud platform for everyday computing to some minor content creation, the initial investment is also a lot lower making computers more accessible to a larger part of the population.
 
 Leasing such an instance in the cloud would cost about 5-20$ monthly, so investing in a local system can be cost efficient; but there are some considerations to the safety and availability infrastructure that commercial solutions otheriwse provide, take a look at the [infrastructure documentation](https://ceiku.github.io/automateme/infrastructure/) for more.
 {: .notice--info}
