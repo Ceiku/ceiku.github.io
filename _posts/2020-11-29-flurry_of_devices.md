@@ -29,45 +29,22 @@ If we imagine the top of the line desktop would use 10h to compute one problem, 
 
 Distributed computing introduces two new factors to consider, network bandwidth and latency, how many packages of data can we send at once, and how quickly do we get a respons from a request is made. Cloud gaming (or remotely operated robotics) are prime examples of this, the more sensitive our task is to small delays to our reaction time cloud computing might not always be our best bet. On my local network I achieve about 10-15ms with only the client over wifi (AC/AX) using parsec on a window host, from commercial solutions lice GeForce I have about 20-50ms depending on which network I was connected to (office, cafe or home), these are a small nuisance at best since you can even game with a free-tier on GeForce with lower graphics and resolution; now who says there's no such thing as a free lunch.
 
-An important point for most users would be the associated costs of hosting yourself, or leasing from a clou
-If we want high end graphics for the most recent titles we should expect a pricepoint of about 10-20$ a month, the graphics card alone of such a system might cost somewhere between 500-1000$ for the investment to be worth it, we would at the very least need to perform at that level for 25 months before replacing, that's not even considering the rest of the computer components. Low consumption users might find it differently, with a raspberry pi (rpi) 4b (less than 100$) or a simple core i3 SBC (about 250$ and up) can be enough to provide a cloud platform for everyday computing and some minor content creation. Leasing such an instance in the cloud would cost about 10-20$ monthly, and we can see how quickly our small investment pays off. There are some nice infrastructure features that we might wan't to account for before we can call it a true replacement, take a look here.
+If we want high end graphics for the most recent titles we should expect a pricepoint of about 10-20$ a month, the graphics card alone of such a system might cost somewhere between 500-1000$ for the investment to be worth it, we would at the very least need to perform at that level for 25 months before replacing, that's not even considering the rest of the computer components. This changes as we move towards low tier computers such as raspberry pi (rpi) 4b (less than 100$) or a simple core i3 SBC (about 250$ and up) can be enough to provide a cloud platform for everyday computing to some minor content creation, the initial investment is also a lot lower. Leasing such an instance in the cloud would cost about 5-20$ monthly, so investing in a local system can be cost efficient; but there are some considerations to the safety and availability infrastructure that commercial solutions otheriwse provide, take a look at the [infrastructure documentation](https://ceiku.github.io/automateme/infrastructure/) for more.
 
-An interesting sidenote on the poetic justice of how we 'scale out' to use large centralized computers has become possible in large by how market segments like gamers and enthusiasts have made computer hardware improve quickly at competative prices, this was from a time when internet was either in its infancy, simple images could take minutes to load. Thus we scaled up our local machines to become ever stronger, faster, smarter devices, that in the end has been reduced to a thin client.
-{: .notice--success}
-
-As our computation became present 'anywhere', so did small wireless physical things pop up everywhere, from our toasters to automatic ticket systems. Ubicomp is about so much more than just getting the data we ask for on the device we're using, it is about using the hidden computation to gain and act on a context, to relieve us of extending our attention to the task. 
 
 __*If the cloud is the brain, then IoT is the central nervous system.*__
 {: .text-center}
+Ubicomp is about so much more than just interacting with the data we ask for on the devices we're using, it is equally much about leveraging a context to provide automations that either removes or reduces the need for user attention. Lets imagine the use case of scheduling our robot vacuum, we could usually use a proprietary app to start or stop a cleaning cycle, or even make a schedule, for people with strict routines this could be enough. I have a more flexible day to day routine, and during the pandemic my trips out the door are fewer, so it would be nice if it knew when I wasn't home, or left the neighbourhood, to do this we need to provide a _presence_ context. One simple way for home automation would be phone gps or home wifi, but for public spaces or guest users we cannot use these tools; it would be nice if they were general to their physical location, rather than related to a specific user. This is true for a lot of uses, from medical instruments to weather stations, in some cases such as storage facilites, factories etc might be nearly autonomous and need very little human oversight.
 
-It is an intricate combination of the small wireless things, pervasive in every aspect of our world, and 
- 
+Amazon even had an automated concept store that removed cashiers and registers, and rather used object and facial recognition to register your purchases.
+{: .notify-info}
 
+While the distinction IoT can be a bit blurry in terms of which devices, or 'things' are included, one distinction is to say it needs to be a network connected microcontroller.
+But this excludes small systems on a chip like rpi zero that has supports desktop OS like raspbian, and while both of these groups of devices has sensors, actuators and limited amounts of local computational resource, we usually need a server that can organize and execute heavier tasks. If you have a light with a motion detector, it might be reasonable to have both the light and sensor connected to the same device, which locally manages to turn on the light when motion is detected. This simple automation is easy to do with limited resources, we avoid delayed action from requesting an answer remotely and most importantly the feature works even if the servers would be down.
 
-Some commercial cloud gaming platoforms even offer free-tiers with limited session times (promts to login again) and reduced resolution and graphics; who says there's no such thing as free lunch.
-{: .notice--info}
+{% include figure image_path="/assets/images/vr_common.jpg" alt="a home-assistant dashboard" caption="As we can see, the responsibilities of providing computational resources is not a black and white picture, this allows us to scale up and out to balance costs, uptime and responsivity" %}
 
-{% include figure image_path="/assets/images/vr_common.jpg" alt="a home-assistant dashboard" caption="My DeX setup with a usb-c cable to the monitor for display, monitor usb hub and charghing my phone, using external drives and midi equipment is plug and play, no fans or spinning disks" %}
+For end consumers IoT is really about smart homes and gadgets, it encompasses everything from the fitness data from their watch, to the list written on the fridge, the devices, features and compromises we make to get them are all different. So there is no two smarthomes quite the same, I have a in-ear headset that is most frequently in use when I work out, so a practical automation was to have my workout playlist start playing when they connected to my phone; great for me, maybe not for you. The major challenge is selecting good devices and software, in many cases this leads to high expenses, but stubborn and crafty people usually find a way (as getting a reluctant old roomba to be wi-fi connected.)
 
-There is another positive aspect of having a computer that's always running in the background, we can get a context from all our devices and things gathered together, and besides the computers are the Internet of Things (IoT) which are can be a tiny microchip with wifi connection, which can be very cheap (the popular ESP chipset family is something we also use more here). They are usually not smart devices at all, and in general they have sensors to provide our system with context, and actuators that let us take action on it. How well an automation works, can be seen in terms of user attention it removes from a task, as we discussed in the last post it might be a flight itinirary, but turning of the light when no one is home, maybe starting the vacuumer if its not too late as well, we only need to be reminded when we should empty the bin. The smartness of these services lays in their ability to "predict" our preferences, a smart home is thus nothing without the brains. 
+And to conclude the second post in the Automate Me series we should have noted that how devices let us peform our computational interactions have become more critical than the resources they provide locally, with good network bandwidth and low delay times the resources we need are at our disposal, anywhere. We should be aware of how to balance scaling up and out, some tasks require high responsivity and might set a lower bound on local resources, scaling up can let us solve complex tasks in very short timeframes. In the next and last post of the series we look closer at automations, how proprietary and open source differ in terms of features and required domain knowledge.
 
-
-{% include figure image_path="/assets/images/vr_common.jpg" alt="a home-assistant dashboard" caption="New infrastructure, new possibilites" %}
-
-
-
-
-In the next section we continue down the ladder to smart devices and the internet of things, and how to use them and much more to create a context for automation and synergy.
-
-
-
-
-To understand our computational habits, I'd like to introduce three user groups, and the latter two is an extension of the first.
-- Everyday computing: from emails, document collaboration, file management, social platforms and video streaming. 
-- Content creation: it could be anything from creative content to coding and usually has two characteristics; discrete workloads and specialized work environments.
-- Responsive computing: is the group of users that would need to interact with a remote desktop environment or otherwise, this is the case for VR chats, low latency gaming etc.
-
-
-
-All developers, and most creative content creators can avoid the last group, responsiveness below 50ms isn't essential for most uses, on a local area network the difference in latency can be around 10ms, connections from outside would be additionally bottlenecked by upload capacities enforced by your ISP.
-{: .notice--info}
