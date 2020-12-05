@@ -20,7 +20,7 @@ In 2020 every person world wide has on average 6 things connected to the interne
 
 At the base of all our computational interactions we have everyday computing, with over x% of the population online on a personal device, we see that this has been growing quickly over the last years, online presence, social media, news and storing our important files are all integer parts of our modern lifestyles, no matter where we are on the planet, with services like LinkedIn, online banking and emergency hotlines computation and internet have become utilities of necessity.
 
-Most of our interactions with computation are clients to servers, depending on the task they distribute the workload differently, editing a local document needs no server interaction, while automations such as travel itiniraries are computed remotely. If you want to keep reading on how to build or extend your own cloud services, read on [here](/automateme/), additional information on personal devices [here](/workflow/desktop-hybrids/).
+Most of our interactions with computation are clients to servers, depending on the task they distribute the workload differently, editing a local document needs no server interaction, while automations such as travel itiniraries are computed remotely. You can keep reading on how to build or extend your own cloud services [here](/automateme/), or additional information on personal devices [here](/workflow/desktop-hybrids/).
 
 __*If the brains of automations are in the cloud, then IoT is the central nervous system.*__
 {: .text-center}
