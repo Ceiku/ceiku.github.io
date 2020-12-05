@@ -12,10 +12,10 @@ tags:
   - Cloud computing
   - Human Computer Interface
 ---
-In 2020 every person world wide has on average 6 things connected to the internet, it is truly a flurry of computers, and things. From fitness trackers to server farms, understanding our habits and how it reflects our computational resource needs can both save us money as well as provide new features and remove the need for users attention in daily tasks.
+In 2020 every person world wide has on average 6 internet connected things with a total of nearly [30 Billion devices total](https://www.statista.com/statistics/802690/worldwide-connected-devices-by-access-technology/), it is truly a flurry of computers, and devices. From fitness trackers to server farms, understanding our habits and how it reflects our computational resource needs can both save us money as well as provide new features and remove the need for users attention in daily tasks.
 <!--more-->
 
-At the base of all our computational interactions we have everyday computing, with over x% of the population online on a personal device, we see that this has been growing quickly over the last years, online presence, social media, news and storing our important files are all integer parts of our modern lifestyles, no matter where we are on the planet, with services like LinkedIn, online banking and emergency hotlines computation and internet have become utilities of necessity.
+At the base of all our computational interactions we have everyday computing, with over 3.5 Billion people with smartphones worldwide ([cite](https://www.bankmycell.com/blog/how-many-phones-are-in-the-world)), we see that this has been growing quickly over the last years, online presence, social media, news and storing our important files are all integer parts of our modern lifestyles, no matter where we are on the planet, with services like LinkedIn, online banking and emergency hotlines computation and internet have become utilities of necessity.
 
 {% include figure image_path="/assets/images/automation2.jpg" alt="a home-assistant dashboard" caption="Robotics and autonomous systems are capable of doing complex tasks that has often been reserved for humans, now they can not only beat Kasparov in a digital version of chess, it could play him on a board as we would." %}
 
