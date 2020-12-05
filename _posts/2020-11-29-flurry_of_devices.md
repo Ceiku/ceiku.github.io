@@ -47,9 +47,7 @@ Distribution also has another advantage, imagine our personal computer would use
 While the distinction can be a bit blurry in terms of which devices, or 'things' are included as IoT, one distinction is to say it needs to be a network connected microcontroller.
 But this excludes small systems on a chip like rpi zero that has supports desktop OS like raspbian, and both of these groups of devices has sensors, actuators and limited amounts of local computational resource, but we usually need a server that can organize and execute heavier tasks.
 
-If you have a light with a motion detector, it might be reasonable to have both the light and sensor connected to the same controller, which locally manages to turn on the light when motion is detected. This simple automation is easy to do with limited resources, and we avoid delayed action from requesting an answer remotely and most importantly the feature works even if the servers would be down.
-
-{% include figure image_path="/assets/images/vr_common.jpg" alt="a home-assistant dashboard" caption="As we can see, the responsibilities of providing computational resources is not a black and white picture, this allows us to scale up and out to balance costs, uptime and responsivity" %}
+{% include figure image_path="/assets/images/iot.jpg" alt="a home-assistant dashboard" caption="If you have a light with a motion detector, it might be reasonable to have both the light and sensor connected to the same controller, which locally manages to turn on the light when motion is detected, and works even without a server." %}
 
 Distributed computing introduces two new factors to consider, network bandwidth and latency, how many packages of data can we send at once, and how quickly do we get a response once a request is made. Cloud gaming (or remotely operated robotics) are prime examples, the more sensitive our task is to small delays to our reaction time cloud computing might not always be our best bet.
 
@@ -57,10 +55,9 @@ On my local network I achieve about 10-15ms with only the client over wifi (AC/A
 
 {% include figure image_path="/assets/images/vr_common.jpg" alt="a home-assistant dashboard" caption="Some environments like VR are very sensitive to latency changes, and can cause nausea and other feelings of discomfort." %}
 
-If we want high end graphics for the most recent titles we should expect a pricepoint of about 10-30$ a month for commercial cloud gaming platforms, the graphics card alone of such a system might cost somewhere between 500-1500$ depending on our graphical setting and resolution, this is not even considering the other components of the computer. For a 500$ card to be cheaper than the 10$ subscription it would need to provide the same level of quality on new titles up to 50 months (little over 4 years), you could maybe get away with updating the rest of the host at half that frequency.
+High end graphics on recent titles is about 10-30$ a month for commercial cloud gaming platforms, the graphics card alone of such a system might cost somewhere between 500-1500$ depending on our graphical setting and resolution. For a 500$ card to be cheaper than the 10$ subscription it would need to provide the same level of quality on new titles up to 50 months (little over 4 years).
 
-This changes as we move towards low tier computers such as raspberry pi (rpi) 4b (less than 100$) or a simple core i3 SBC (about 250$ and up) can be enough to provide a cloud platform for everyday computing to some minor content creation, the initial investment is also a lot lower making computers more accessible to a larger part of the population.
-Leasing such an instance in the cloud would cost about 5-20$ monthly, but as we want more power we need to consider the pattern of usage, it might be better to have one weak node always on, and lease the power you need on demand.
+It is different for mid and low tier, general purpose computers as a raspberry pi (rpi) (50-100$) or a core i3 Single board computer (+-250$), it is enough for most tasks, and comes at a much lower initial investment making it accessible to people on low budgets. Leasing such an instance in the cloud would cost about 5-20$ monthly, but as we want more power we need to consider the pattern of usage, it might be better to have one weak node always on, and lease the power you need on demand.
 
 There are some considerations to the safety and availability infrastructure that commercial solutions otheriwse provide, take a look at the [infrastructure documentation](https://ceiku.github.io/automateme/infrastructure/) for more.
 {: .notice--info}
