@@ -58,14 +58,14 @@ On my local network I achieve about 10-15ms with only the client over wifi (AC/A
 
 High end graphics on recent titles is about 10-30$ a month for commercial cloud gaming platforms, the graphics card alone of such a system might cost somewhere between 500-1000$ depending on our graphical setting and resolution. For a 500$ card to cheaper over time than the 10$ subscription it would need to provide the same level of quality on new titles up to 50 months (little over 4 years).
 
-It is a different story for low and midt tier general purpose computers as a raspberry pi (rpi) (50-100$) or a core i3 build (+-250$), it is enough for most tasks and comes at a much lower initial investment making it accessible to people on low budgets. Leasing such an instance in the cloud would cost about 5-20$ monthly, and for most home server tasks this is sufficient power in a node.
+It is a different story for low and midt tier general purpose computers as a raspberry pi (rpi) (50-100$) or a core i3 build (+-250$), it is enough for most tasks and comes at a much lower initial investment making it accessible to people on low budgets. Leasing such an instance in the cloud would cost about 5-20$ monthly, and for most home server tasks this is ample power.
 
 There are some considerations to the safety and availability infrastructure that commercial solutions otheriwse provide, take a look at the [infrastructure documentation](https://ceiku.github.io/automateme/infrastructure/) for more.
 {: .notice--info}
 
-{% include figure image_path="/assets/images/smarthome.jpg" alt="a home-assistant dashboard" caption="For end consumers IoT is really about smart homes and gadgets, it encompasses everything from the fitness data from their watch, to the list written on the fridge, the devices, features and compromises we make to get them are all different, no two smarthomes are quite the same." %}
+{% include figure image_path="/assets/images/smarthome.jpg" alt="a home-assistant dashboard" caption="For end consumers IoT is really about smart homes and gadgets, it encompasses everything from the fitness data on their watch, to the grocery list written on the fridge, these devices, features and compromises makes individual solutions unique." %}
 
 And to conclude the second post in the Automate Me series we should have noted that how devices let us peform our computational interactions have become more critical than the resources they provide locally, with good network bandwidth and low delay times the resources we need are at our disposal, anywhere. We should be aware of how to balance scaling up and out, some tasks require high responsivity and might set a lower bound on local resources, scaling up can let us solve complex tasks in very short timeframes.
 
-In the next and last post of the series we look closer at automations, how proprietary and open source differ in terms of features and required domain knowledge.
+In the next, and last post of the series we look closer at automations, how proprietary and open source differ in terms of features and required domain knowledge.
 
