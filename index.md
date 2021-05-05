@@ -9,3 +9,5 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com/)"
   show_overlay_excerpt: false
 ---
+
+Watch out! This blog is currently being restructured and some content might not respond as expected. {: .notice--alert}
