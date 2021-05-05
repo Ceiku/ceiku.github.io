@@ -1,5 +1,5 @@
 ---
-title: "Mobile desktops, just a hybrid?"
+title: "Mobile Desktops, Just a Hybrid?"
 last_modified_at: 2016-03-09T16:20:02-05:00
 excerpt_separator: "<!--more-->"
 header:
@@ -11,7 +11,7 @@ tags:
   - Ubiquitous-Computing
   - Cloud computing
   - Mobile devices
-  - Coding
+  - Workspace
   - Human-Computer Interface
 ---
 Computers are expensive, our budget is split over mobile and desktop devices to provide us with comfortable interfaces for our needs, from working on documents or 3D files, or entertainment with games and binging series. On a limited budget getting the features we want become hard, and we might wish that our tablet and laptop was reduced to one device.
