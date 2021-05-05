@@ -1,5 +1,5 @@
 ---
-title: "Automate me: A flurry of devices"
+title: "Automate me II: A flurry of devices"
 excerpt_separator: "<!--more-->"
 header:
   image: /assets/images/flurry_header.jpg
