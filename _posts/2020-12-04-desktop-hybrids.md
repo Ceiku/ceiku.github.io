@@ -14,7 +14,6 @@ tags:
   - Coding
   - Human-Computer Interface
 ---
-
 Computers are expensive, our budget is split over mobile and desktop devices to provide us with comfortable interfaces for our needs, from working on documents or 3D files, or entertainment with games and binging series. On a limited budget getting the features we want become hard, and we might wish that our tablet and laptop was reduced to one device.
 
 <!--more--> 
