@@ -1,18 +1,16 @@
 ---
-title: "Mobile Desktops, Just a Hybrid?"
-last_modified_at: 2016-03-09T16:20:02-05:00
+title: "Automate me II: A flurry of devices"
 excerpt_separator: "<!--more-->"
 header:
-  image: /assets/images/desktopless.jpg
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com/@jesuskiteque)"
+  image: /assets/images/flurry_header.jpg
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com/@ranasawalha)"
 categories:
-  - workflow
+  - automate me
 tags:
   - Ubiquitous-Computing
+  - Smart devcies
   - Cloud computing
-  - Mobile devices
-  - Workspace
-  - Human-Computer Interface
+  - Human Computer Interface
 ---
 Computers are expensive, our budget is split over mobile and desktop devices to provide us with comfortable interfaces for our needs, from working on documents or 3D files, or entertainment with games and binging series. On a limited budget getting the features we want become hard, and we might wish that our tablet and laptop was reduced to one device.
 
@@ -35,6 +33,6 @@ As a developer, my first instinct in doing so was "there's gonna be no way I can
 
 My macbook that cost over twice of my iPad with its keyboard folio and pen, which had now replaced it for all intents and purposes, the noisy big computer at home was all I needed to provide an ubiquitous interface. The second strike came when I needed to upgrade my phone, it was around the time where I had gotten curious about Samsung DeX as well (coincidence?), and while I loved the ipad my sessions on the go, I still missed the truly windowed experience that my stationary provided at home for long session. This is what DeX attempts to do, and honestly the only difference is the lack of multi-monitor support; which I hear is coming anyway. 
 
-Unlike iPad OS, Android already have a lot of UNIX tools that developers might know, apps like termux gives us a terminal that can do almost anything short of containerisation like docker, we can host our web servers for local development for moments we cannot connect to our cloud platform; it is the closes to a standalone mobile-desktop hybrid that I have tried. Both hybrid OS provide filemanagers, we can use external drives (usb hubs are essential for mobile devices as computers), keyboard and mouse support is present, but the pointing overlay for iPad OS still has some issues to iron out (like scrolling in webviews).
+Unlike iPad OS, Android already have a lot of UNIX tools that developers might know, apps like termux gives us a terminal that can do almost anything short of containerisation like docker, we can host our web servers for local development for moments we cannot connect to our cloud platform; it is the closes to a standalone mobile-desktop hybrid that I have tried. Both hybrid OS provide filemanagers, we can use external drives (usb hubs are essential for mobile devices as computers) keyboard and mouse support is present, but the pointing overlay for iPad OS still has some issues to iron out (like scrolling in webviews).
 
 So far we have discussed how the mobile devices can replace our desktops, but this leaves out half the story, where mobile devices are fundamentally different, when it comes to social media, sharing, notifications and navigating with maps, our mobile devices come packed with hardware and apps to meet our needs, these are interwoven into these hybrids in a way that makes contextual sense. If we were to demand a laptop with 5G, multiple cameras (say 100mp on the main lens), day long battery life, gps and all the other things we have in our smartphones the pricetag might make us cry a little, so why look further than mobile.
