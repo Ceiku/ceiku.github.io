@@ -1,14 +1,14 @@
 ---
-title: "Mobile Desktops"
+title: "Mobile Desktops, Just a Hybrid?"
 excerpt_separator: "<!--more-->"
 header:
-  image: /assets/images/flurry_header.jpg
+  image: /assets/images/dekstopless.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com/@ranasawalha)"
 categories:
-  - automate me
+  - Mobile Computing
 tags:
   - Ubiquitous-Computing
-  - Smart devcies
+  - Workspace
   - Cloud computing
   - Human Computer Interface
 ---
