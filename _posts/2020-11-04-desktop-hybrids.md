@@ -1,5 +1,5 @@
 ---
-title: "Automate me II: A flurry of devices"
+title: "Mobile Desktops"
 excerpt_separator: "<!--more-->"
 header:
   image: /assets/images/flurry_header.jpg
